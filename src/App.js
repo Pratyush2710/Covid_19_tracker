@@ -20,12 +20,12 @@ class App extends React.Component{
     }
     render(){
         const { data } = this.state;
-
+        
             return (
                 <div className={styleMedia.container}>
                     <Cards data={data}/>
-                    {/* <CountryPicker />
-                    <Chart /> */}
+                    {/* <CountryPicker /> */}
+                    <Chart />
                 </div>
             ) 
         }
