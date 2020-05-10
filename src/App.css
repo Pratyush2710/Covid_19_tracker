@@ -1,11 +1,23 @@
 body {
-    background-color: rgb(250, 250,250);
+    background-color: grey, rgb(250, 250, 250);
   }
   
   .container {
+    text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  
+  .footer {
+    align-items: center;
+    text-align: center;
+  }
+  
+  h4 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
   }
   
   .image {
